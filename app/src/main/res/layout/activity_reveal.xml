@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ext.myapplication.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/ripple_border"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="border without mask"
+            />
+
+        <Button
+            android:background="@drawable/ripple_border2"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:textAllCaps="false"
+            android:text="border with mask"
+            />
+
+        <Button
+            android:background="@drawable/ripple_borderless"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="borderless"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:clickable="true"
+            android:src="@android:color/holo_green_light"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="border without mask"
+            />
+
+        <ImageView
+            android:clickable="true"
+            android:background="@drawable/ripple_border4"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="border with mask"
+            />
+
+        <ImageView
+            android:clickable="true"
+            android:src="@drawable/ripple_borderless"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="borderless"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/ripple_border3"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="border without mask"
+            />
+
+        <Button
+            android:background="@drawable/ripple_border4"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="border with mask"
+            />
+
+        <Button
+            android:background="@drawable/ripple_borderless"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:text="borderless"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:text="hello"
+            android:clickable="true"
+            android:background="@drawable/ripple_borderless"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView"/>
+
+        <FrameLayout
+            android:clickable="true"
+            android:background="@drawable/ripple_border3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+
+                android:layout_width="128dp"
+                android:layout_height="128dp"></ImageView>
+        </FrameLayout>
+        <FrameLayout
+            android:clickable="true"
+            android:background="@drawable/ripple_border4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+
+                android:layout_width="256dp"
+                android:layout_height="256dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:clickable="true"
+            android:background="@drawable/ripple_borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
+
