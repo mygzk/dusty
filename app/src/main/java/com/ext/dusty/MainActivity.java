@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ext.dusty.activity.CustomViewActivity;
 import com.ext.dusty.activity.RevealActivity;
 import com.ext.dusty.activity.VibratorActivity;
 
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     static {
         mEntries.add(new Entry("RevealActivity", RevealActivity.class));
         mEntries.add(new Entry("VibratorActivity", VibratorActivity.class));
+        mEntries.add(new Entry("CustomViewActivity", CustomViewActivity.class));
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

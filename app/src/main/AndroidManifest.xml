@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.CustomViewActivity" >
+        </activity>
         <activity android:name=".activity.RevealActivity"
             android:launchMode="singleTask"/>
         <activity android:name=".activity.VibratorActivity"

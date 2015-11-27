@@ -1,5 +1,6 @@
 package com.ext.dusty.component.module;
 
+import com.ext.dusty.activity.CustomViewActivity;
 import com.ext.dusty.activity.MainActivity;
 
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class EntryModule {
 
     static {
         activities.add(new Entry("MainActivity", MainActivity.class));
+        activities.add(new Entry("CustomViewActivity", CustomViewActivity.class));
     }
 
     @Provides

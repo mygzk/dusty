@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ext.dusty.activity.CustomViewActivity"
+    android:orientation="vertical">
+
+
+    <com.ext.dusty.widget.CustomTitleView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        custom:image="@mipmap/btn_take_photo_n"
+        custom:imageScaleType="center"
+        custom:titleText1="3712"
+        custom:titleTextColor1="#ff0000"
+        custom:titleTextSize1="40sp"
+        android:layout_margin="10dp"/>
+
+    <com.ext.dusty.widget.CustomCircle
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        custom:firstColor="#2be70a"
+        custom:sendColor="#1245ab"
+        custom:circleWidth="10dp"
+        custom:circleSpeed="10"
+        android:layout_margin="20dp"
+        />
+
+
+
+
+</LinearLayout>
