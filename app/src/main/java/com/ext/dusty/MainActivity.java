@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ext.dusty.activity.CustomItemLayoutActivity;
 import com.ext.dusty.activity.CustomViewActivity;
 import com.ext.dusty.activity.RevealActivity;
 import com.ext.dusty.activity.VibratorActivity;
@@ -32,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         mEntries.add(new Entry("RevealActivity", RevealActivity.class));
         mEntries.add(new Entry("VibratorActivity", VibratorActivity.class));
         mEntries.add(new Entry("CustomViewActivity", CustomViewActivity.class));
+        //自定义布局文件测试类
+        mEntries.add(new Entry("CustomItemLayoutActivity", CustomItemLayoutActivity.class));
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

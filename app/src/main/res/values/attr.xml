@@ -28,6 +28,24 @@
     </declare-styleable>
 
 
+    <declare-styleable name="customItemLayout">
+
+        <attr name="customtitle" format="string"/>
+        <attr name="customContent" format="string"/>
+        <attr name="customArrow" format="reference"/>
+        <attr name="customRightText" format="string"/>
+        <attr name="customRightCircle" format="reference"/>
+        <attr name="customIsImg" format="boolean"/>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+
 
 
 </resources>
